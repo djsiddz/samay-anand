@@ -2,15 +2,15 @@
 import { Image } from "astro:assets";
 import MainLayout from "../layouts/MainLayout.astro";
 import siteConfig from "../site.config";
-import coverImage from "../assets/images/pixeltrue-space-discovery.svg";
+import coverImage from "../assets/images/jayanth-muppaneni-3gqLwWG9QvU-unsplash.jpg";
 ---
 
 <MainLayout activePage="contact" pageTitle={siteConfig.title + " | Contact"}>
   <div class="page-content">
     <h1 class="sigmar-ff text-balance">{siteConfig.contactInfo?.title}</h1>
     <Image
-      width={400}
-      height={300}
+      width={800}
+      height={450}
       loading="eager"
       layout="fixed"
       class="rounded-4xl mb-8 mx-auto grayscale-75 saturate-200"

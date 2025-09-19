@@ -64,11 +64,11 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
-    title: 'Space Ahead',
-    description: 'A minimal space-inspired personal blog template built with Astro.js and Tailwind CSS, by Siddhesh Thadeshwar',
+    title: 'Samay Anand',
+    description: 'Funny, witty, and unexpected tales from the heart of Mumbai. Stories of everyday people, their struggles, wins, and the city that shapes them.',
     image: {
-        src: '/space-ahead-preview.jpeg',
-        alt: 'Space Ahead ✨ - A minimal space-inspired personal blog template, created by Siddhesh Thadeshwar.'
+        src: '/space-ahead-preview.jpeg', // Replace with actual image later
+        alt: 'Mumbai Stories - Blog by Samay Anand'
     },
     headerNavLinks: [
         {
@@ -78,10 +78,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: withBase('/blog')
-        },
-        {
-            text: 'Tags',
-            href: withBase('/tags')
         },
         {
             text: 'About',
@@ -105,36 +101,36 @@ const siteConfig: SiteConfig = {
             text: 'RSS Feed',
             href: withBase('/rss.xml')
         },
-                {
+        {
             text: 'Sitemap',
             href: withBase('/sitemap-index.xml')
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
             href: 'https://instagram.com/'
         },
         {
-            text: 'X/Twitter',
+            text: 'Twitter',
             href: 'https://twitter.com/'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://linkedin.com/'
         }
     ],
     hero: {
-        eyebrowText: 'Galaxy of Adventures',
-        title: 'Space Ahead ✨',
-        text: "Written by Astro-naut Sid, a space explorer at Beyond Earth.",
+        eyebrowText: 'Discover the city ☔',
+        title: 'Mumbai Stories',
+        text: "Witty, funny, and unexpected tales from everyday lives of Mumbai's people, by Samay Anand.",
         image: {
-            src: '/assets/images/pixeltrue-space-discovery.svg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/assets/images/hero-image.jpg', // Replace with actual image later
+            alt: 'Mumbai cityscape illustration'
         },
         actions: [
             {
-                text: 'Read Now',
+                text: 'Read Stories',
                 href: withBase('/blog')
             },
             {
@@ -144,12 +140,12 @@ const siteConfig: SiteConfig = {
         ]
     },
     about: {
-        title: 'About',
-        text: 'Space Ahead is a blog about space exploration and travel. It is written by Astro-naut Sid, a space explorer at Beyond Earth. Sid is known for his love of adventure and his insatiable curiosity about the universe. He has explored countless planets, discovered new life forms, and made friends with aliens along the way. 🚀',
+        title: 'About Samay Anand',
+        text: "Samay Anand is a writer from India, sharing short and medium-length stories about the vibrant lives of Mumbai's people. His writing blends humor, wit, and surprise, making every story a delightful journey. For the past three years, Samay has captured the essence of Mumbai, one story at a time."
     },
     contactInfo: {
         title: 'Contact',
-        text: "Hi! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:",
+        text: "Have a question, suggestion, or just want to say hi? Reach out to Samay through any of the links below:",
         email: {
             text: "Drop me an email and I’ll do my best to respond as soon as possible.",
             href: "mailto:example@example.com",
@@ -157,25 +153,25 @@ const siteConfig: SiteConfig = {
         },
         socialProfiles: [
             {
+                text: "Instagram",
+                href: "https://instagram.com/"
+            },
+            {
+                text: "Twitter",
+                href: "https://twitter.com/"
+            },
+            {
                 text: "LinkedIn",
-                href: "https://www.linkedin.com/"
-            },
-            {
-                text: "Peerlist",
-                href: "https://www.peerlist.io/"
-            },
-            {
-                text: "GitHub",
-                href: "https://github.com/"
+                href: "https://linkedin.com/"
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Space Ahead',
-        text: 'One update per week. All the latest stories in your inbox.',
+        title: 'Subscribe to Mumbai Stories',
+        text: 'Get the latest tales, struggles and wins, in your inbox. One story per week. 💖',
         formUrl: '#'
     },
-    postsPerPage: 2,
+    postsPerPage: 4,
     recentPostLimit: 3
 };
 

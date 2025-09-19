@@ -15,11 +15,11 @@ const { title, pubDate, description, image } = post.data;
       image && image.url && (
         <>
           <Image
-            class=""
+            class="aspect-auto"
             src={image.url}
             alt={image.alt || ""}
-            width={300}
-            height={167}
+            width={400}
+            height={225}
           />
         </>
       )

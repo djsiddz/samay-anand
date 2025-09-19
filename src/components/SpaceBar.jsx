@@ -23,7 +23,7 @@ export default function SpaceBar({ className, messages }) {
       title="Click Me!"
       onClick={() => setMessage(getRandomMessage())}
     >
-      📻 Space Bar: {message}
+      📻: {message}
     </button>
   );
 }

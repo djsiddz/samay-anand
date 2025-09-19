@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import MainLayout from "../layouts/MainLayout.astro";
 import { withBase } from "../utils/helpers";
-import heroImage from "../assets/images/pixeltrue-space-discovery.svg";
+import heroImage from "../assets/images/mumbai-upgrade-banner.png";
 import SpaceKeyboard from "../components/SpaceKeyboard.astro";
 import siteConfig from "../site.config";
 ---
@@ -15,13 +15,13 @@ import siteConfig from "../site.config";
   <div class="flex flex-col items-center justify-center page-content">
     <h1 class="sigmar-ff">404</h1>
     <Image
-      class="cover-img"
+      class="cover-img -mt-20"
       src={heroImage}
-      alt={"Astronaut in space"}
-      width={400}
-      height={300}
+      alt={"Mumbai Upgrade Signage"}
+      width={1600}
+      height={900}
     />
-    <p>🧑‍🚀: Houston, we have a problem.</p>
+    <p>🚧 Inconvenience Regretted.</p>
     <p>
       We couldn't find that link. Verify the address or <a
         class="font-medium underline"

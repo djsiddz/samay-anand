@@ -1,98 +1,38 @@
-# Space Ahead ✨ - An Astro v5 Personal Blog Template
+# Mumbai Stories ✨ - Written by Samay Anand
 
-A minimal space-inspired personal blog template, created by Siddhesh Thadeshwar.
+Stories of Mumbai by Samay Anand.
 
-![Space Ahead ✨](/space-ahead-preview.jpeg)
+> [!Note]
+>
+> This is a demo site to showcase the capabilities of the Astro theme "Space Ahead", created by (Siddhesh Thadeshwar)[https://github.com/djsiddz]. Any resemblance to any living or dead is coincidental, all content of this site is generated with the help of AI & Unsplash. Review the Credits below for specific details.
+>
+> Learn more more or Get the theme [here](https://astro.build/themes/details/space-ahead/) for FREE.
 
-See the [demo](https://djsiddz.github.io/space-ahead) to know more.
+## Some notes about this demo
 
-## Theme Features
-
-- ✅ Tailwind CSS
-- ✅ Mobile-first responsive layout
-- ✅ Dark and light color mode
-- ✅ Custom About, Contact & 404 pages
-- ✅ Hero section with short bio
-- ✅ Blog content collection
-- ✅ Pagination support
-- ✅ Tags support for blog posts
-- ✅ Subscription form (only UI)
-- ✅ View transitions (via swup.js)
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown support
-
-### Future Scope (Based on requests)
-
-- ⏹️ MDX support via @astrojs/mdx integration
-- ⏹️ SEO-friendly with canonical URLs and OpenGraph data
-- ⏹️ New Portfolio/Projects content collection
-
-## Template Integrations
-
-- Tailwind v4 via Vite Plugin as per latest Astro docs
-- Swup.js for View Transitions
-- RSS: [@astrojs/rss](https://docs.astro.build/en/guides/rss/)
-- Sitemap: [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
-
-## How to use this template
-
-### Getting Started
-
-1. [Create a new repo](https://github.com/new?template_name=space-ahead&template_owner=djsiddz) using this template.
-2. Clone to repo to your local computer using `git clone <your-repo-url>`. Then `cd <your-repo-name>`.
-3. Setup `pnpm` and use `pnpm install` and then `pnpm dev`.
-4. Use the `src/site.config.ts` file to setup the template to your liking.
-5. Update any content on homepage (`src/pages/index.astro`), about (`src/pages/about.astro`), and contact (`src/pages/contact.astro`).
-6. Replace the template posts under (`src/content/blogs/*.md`) with your blog posts, using the same format, with the post metadata.
-7. Check the [Astro Deployment guide](https://docs.astro.build/en/guides/deploy/) to know specific steps on deploying this on your preferred provider platform.
-
-### Project Structure
-
-You'll see the following folders and files:
-
-```text
-├── public/----------------- Contains the site logo (replace with your own).
-├── src/--------------------
-│   ├── assets/------------- Contains svg icons for theme toggle component.
-│   │   └── images/--------- Contains default images for homepage and blog posts.
-│   ├── components/--------- All Astro/Preact components in this theme.
-│   ├── content/------------ Content Collections folder.
-│   │   └── blogs/---------- All the blog posts in *.md files.
-│   ├── icons/-------------- All Astro icon components.
-│   ├── layouts/------------ Shared Layout component.
-│   ├── pages/-------------- Various Astro pages, dynamic pages for blogs, tags; a custom 404 page.
-│   ├── styles/------------- Contains `global.css`, `fonts.css` and `animate.css`.
-│   ├── utils/-------------- Contains helper functions.
-│   ├── content.config.ts--- Content collections definitions.
-│   ├── env.d.ts------------ Contains helper functions.
-│   └── site.config.ts------ Manage your site information and content here.
-├── astro.config.mjs-------- Astro configuration file.
-├── changelog.md------------ Detailed Changelog for this theme.
-├── LICENSE----------------- Theme License.
-├── package.json------------ Dependencies and metadata about this template.
-├── README.md--------------- 📍 You are here.
-└── tsconfig.json----------- Typescript configuration file.
-```
-
-#### Notes
-
-- Read & consult [Astro's documentation](https://docs.astro.build/) for up-to-date information and making changes to this template.
-- The `src/components` directory is where we like to put any Astro or Preact components.
-- The `src/content/` directory contains "collections" of related Markdown (and MDX) documents. Use getCollection() to retrieve posts from `src/content/blogs/`, and type-check your frontmatter using an optional schema. See Astro's [Content Collections](https://docs.astro.build/en/guides/content-collections/) docs to learn more.
+- A different fade View Transition effect can be viewed in this demo. The other option is overlay, that can be previewed on the [Space Ahead demo site](https://github.io/djsiddz/space-ahead).
+- Minor CSS adjustments are made based on the content and images. This is a suggested activity when you use the theme.
+- Easter egg has been adapted as well.
 
 ## Credits and Support Info
 
 ### Support Info
 
-- I provide **paid service** for customizing and setup any of my Astro templates for your projects and startups. Contact me on [Contra](https://contra.com/siddhesht) to know more.
+- Siddhesh provides **paid service** for customizing and setup any of his Astro templates for your projects and startups. Contact him on [Contra](https://contra.com/siddhesht) to know more.
 - Please feel free to create issues for any bugs or feature requests on this theme.
 
 ### Credits
 
-- Generated Space Ahead ✨ logo and images for demo blog content using Microsoft Designer.
-- Homepage illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue Ouch!</a>
-- Inspired from these amazing Astro templates - [Dante](https://github.com/JustGoodUI/dante-astro-theme) & [Chiri](https://github.com/the3ash/astro-chiri). Please do check them out.
+- Homepage / Rickshaw Post Photo by <a href="https://unsplash.com/@jay_5?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jayanth Muppaneni</a> on <a href="https://unsplash.com/photos/three-motorcycles-parked-next-to-each-other-in-front-of-a-building-3gqLwWG9QvU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Local Train Cover Photo by <a href="https://unsplash.com/@devarya?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Devarya Ruparelia</a> on <a href="https://unsplash.com/photos/a-train-pulling-into-a-station-lwfuCIafc5Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- CST Post Photo by <a href="https://unsplash.com/@mayurpokle?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mayur Pokle</a> on <a href="https://unsplash.com/photos/a-person-standing-on-a-platform-next-to-a-train-at-a-train-station-t6NJgXJWDNw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Dadar Post Photo by <a href="https://unsplash.com/@vishalbhutani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vishal Bhutani</a> on <a href="https://unsplash.com/photos/a-couple-of-men-sitting-next-to-each-other-PNAH6DadR9k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Cat Post Photo by <a href="https://unsplash.com/@hyson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Antony Hyson Seltran</a> on <a href="https://unsplash.com/photos/a-cat-sitting-on-a-ledge-DmvG8TdkgwE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Chaiwala Post Photo by <a href="https://unsplash.com/@underroot?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Anirudh</a> on <a href="https://unsplash.com/photos/a-man-standing-in-front-of-a-market-selling-items-qWT0NWgKqlc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Pani Puri Post Photo by <a href="https://unsplash.com/@johanmouchet?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johan Mouchet</a> on <a href="https://unsplash.com/photos/a-man-selling-food-on-a-street-corner-mAHi6vhe4hg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- About Photo by <a href="https://unsplash.com/@thefinash?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">the finash</a> on <a href="https://unsplash.com/photos/a-man-sitting-on-top-of-a-white-chair-s496Diayxek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- 404 Page Photo, adapted from <a href="https://www.designorb.in/projects/mumbai-metro-rail-corporation-mmrc/" target="_blank">Design Orb</a>.
+- Site Logo and blog content generated by AI for demo purposes.
 
 ## License
 

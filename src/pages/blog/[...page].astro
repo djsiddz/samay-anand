@@ -22,10 +22,13 @@ const allPosts = page.data;
 <MainLayout activePage="blog" pageTitle={siteConfig.title + " | Blog Archive"}>
   <div class="page-content py-8 text-center">
     <h1 class="sigmar-ff">Blog</h1>
-    <p class="font-light text-balance">
-      Funny, witty, and unexpected tales from the heart of Mumbai. Stories of
-      everyday people, their struggles, wins, and the city that shapes them.
-    </p>
+    {
+      siteConfig.blog?.description && (
+        <p class="font-light text-balance mb-6">
+          {siteConfig.blog.description}
+        </p>
+      )
+    }
 
     <div
       class="flex flex-col text-left gap-8 mb-4 text-sm sm:text-base max-w-fit mx-auto"

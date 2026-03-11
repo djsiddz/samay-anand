@@ -26,6 +26,10 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+
+  experimental: {
+    svgo: true
+  }
 });
 
 //swup theme variations:

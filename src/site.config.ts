@@ -44,6 +44,10 @@ export type Subscribe = {
     formUrl: string;
 };
 
+export type Blog = {
+    description?: string;
+};
+
 export type SiteConfig = {
     website: string;
     logo?: Image;
@@ -57,6 +61,7 @@ export type SiteConfig = {
     about?: About;
     contactInfo?: ContactInfo;
     subscribe?: Subscribe;
+    blog?: Blog;
     postsPerPage?: number;
     recentPostLimit: number;
     projectsPerPage?: number;
@@ -170,6 +175,9 @@ const siteConfig: SiteConfig = {
         title: 'Subscribe to Mumbai Stories',
         text: 'Get the latest tales, struggles and wins, in your inbox. One story per week. 💖',
         formUrl: '#'
+    },
+    blog: {
+        description: "Funny, witty, and unexpected tales from the heart of Mumbai. Stories of everyday people, their struggles, wins, and the city that shapes them."
     },
     postsPerPage: 4,
     recentPostLimit: 3

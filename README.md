@@ -2,11 +2,14 @@
 
 Stories of Mumbai by Samay Anand.
 
-> [!Note]
+> [!Warning]
+>
+> Clone or Fork the actual template that will always be updated first. This is just a demo site.
 >
 > This is a demo site to showcase the capabilities of the Astro v6 theme "Space Ahead", created by [Siddhesh Thadeshwar](https://github.com/djsiddz). Any resemblance to any living or dead is coincidental, all content of this site is generated with the help of AI & Unsplash. Review the Credits below for specific details.
 >
-> Learn more more or Get the theme [here](https://astro.build/themes/details/space-ahead/) for FREE.
+> [Clone or Fork the actual template](https://github.com/djsiddz/space-ahead)
+> Learn more more or [Get the theme](https://astro.build/themes/details/space-ahead/) for FREE.
 
 ## Some notes about this demo
 

@@ -1,7 +1,6 @@
 ---
-import { Image } from "astro:assets";
-import moon from "../assets/moon.svg";
-import sun from "../assets/sun.svg";
+import Moon from "../assets/moon.svg";
+import Sun from "../assets/sun.svg";
 import Button from "./Button.astro";
 ---
 
@@ -12,8 +11,9 @@ import Button from "./Button.astro";
     "p-1! aspect-square border-gray-500 hover:border-space-red dark:hover:border-space-yellow hover:text-space-red dark:hover:text-space-yellow portrait:ml-auto",
   ]}
 >
-  <Image src={moon} alt="Moon Icon" class="moon" />
-  <Image src={sun} alt="Sun Icon" class="sun" />
+  <!-- <Image src={moon} alt="Moon Icon" class="moon" /> -->
+  <Moon class="moon" sr-only="Click to Switch to Dark Theme" />
+  <Sun class="sun" sr-only="Click to Switch to Light Theme" />
 </Button>
 
 <style>

@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, svgoOptimizer } from "astro/config";
 import preact from "@astrojs/preact";
 import sitemap from "@astrojs/sitemap";
 import swup from "@swup/astro";
@@ -28,8 +28,8 @@ export default defineConfig({
   },
 
   experimental: {
-    svgo: true
-  }
+    svgOptimizer: svgoOptimizer(),
+  },
 });
 
 //swup theme variations:

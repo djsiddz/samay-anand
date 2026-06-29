@@ -4,24 +4,24 @@ Stories of Mumbai by Samay Anand.
 
 > [!Warning]
 >
-> Clone or Fork the actual template that will always be updated first. This is just a demo site.
+> Clone or Fork the actual template, as that will always be updated first. This is just a demo site.
 >
-> This is a demo site to showcase the capabilities of the Astro v6 theme "Space Ahead", created by [Siddhesh Thadeshwar](https://github.com/djsiddz). Any resemblance to any living or dead is coincidental, all content of this site is generated with the help of AI & Unsplash. Review the Credits below for specific details.
+> This is a demo site to showcase the capabilities of the Astro v7 theme "Space Ahead", created by [Siddhesh Thadeshwar](https://github.com/djsiddz). Any resemblance to any living or dead is coincidental; all content of this site is generated with the help of AI & Unsplash. Review the Credits below for specific details.
 >
 > [Clone or Fork the actual template](https://github.com/djsiddz/space-ahead)
-> Learn more more or [Get the theme](https://astro.build/themes/details/space-ahead/) for FREE.
+> Learn more or [Get the theme](https://astro.build/themes/details/space-ahead/) for FREE.
 
 ## Some notes about this demo
 
-- A different fade View Transition effect can be viewed in this demo. The other option is overlay, that can be previewed on the [Space Ahead demo site](https://github.io/djsiddz/space-ahead).
-- Minor CSS adjustments are made based on the content and images. This is a suggested activity when you use the theme.
+- A different fade View Transition effect can be viewed in this demo. The other option is overlay, which can be previewed on the [Space Ahead demo site](https://github.io/djsiddz/space-ahead).
+- Minor CSS adjustments are made based on the content and images. This is a suggested activity to use the theme.
 - Easter egg has been adapted as well.
 
 ## Credits and Support Info
 
 ### Support Info
 
-- Siddhesh provides **paid service** for customizing and setup any of his Astro templates for your projects and startups. Contact him on [Contra](https://contra.com/siddhesht) to know more.
+- Siddhesh provides a **paid service** for customizing and setting up any of his Astro templates for your projects and startups. Contact him on [Contra](https://contra.com/siddhesht) to know more.
 - Please feel free to create issues for any bugs or feature requests on this theme.
 
 ### Credits

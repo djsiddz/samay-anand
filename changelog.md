@@ -1,6 +1,14 @@
 # Space Ahead ✨ Changelog
 
-## v0.16.0 (Latest) - August 26, 2026
+## v0.16.1 (Latest) - August 26, 2026
+
+Documentation updates announcing Astro v7.2 demo compatibility.
+
+### Updates
+
+- Updated `README.md` to reflect Astro v7.2 Space Ahead theme capabilities.
+
+## v0.16.0 - August 26, 2026
 
 Sync with Space Ahead v0.16.0 (Astro v7.2 upgrade & dependency refresh).
 

@@ -2,7 +2,7 @@
   "name": "space-ahead",
   "description": "Samay Anand's personal website - A demo for the 'Space Ahead' Astro v6 theme",
   "type": "module",
-  "version": "0.16.0",
+  "version": "0.16.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro build && astro preview",

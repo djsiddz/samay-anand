@@ -1,6 +1,23 @@
 # Space Ahead ✨ Changelog
 
-## v0.18.0 (Latest) - October 28, 2026
+## v0.19.0 (Latest) - November 25, 2026
+
+Security update release addressing known vulnerabilities in the dependency tree, synced with the Space Ahead theme.
+
+### Security
+
+- Upgraded Astro to v7.4.13, patching GHSA-mh32-jxcr-mh9f (XSS via attribute injection in dynamic tag names) and GHSA-r3h5-4585-7x3w (image endpoint file read on case-sensitive filesystems).
+- Updated `fast-xml-parser` (via `@astrojs/rss`) to patch GHSA-474x-hrwr-fgx4 (quadratic CPU consumption on unterminated stop-node tags).
+- Added a pnpm override forcing `serialize-javascript` to v7.1.4, patching GHSA-5c6j-r48x-rmvq (RCE) and GHSA-m5mm-p8h7-m29v (XSS). The vulnerable copy was pulled in transitively by `@swup/plugin@3`'s deprecated `rollup-plugin-terser` dependency; the `serialize()` API is unchanged, and `pnpm audit` now reports no known vulnerabilities.
+
+### Updates
+
+- Upgraded `@astrojs/preact` to v6.1.6, `@astrojs/sitemap` to v3.7.6, and Preact to v11.2.0.
+- Upgraded `@tailwindcss/vite` and `tailwindcss` to v4.3.5, and Prettier to v3.10.1.
+- Kept TypeScript at v6.0.3 while deferring the TypeScript 7 upgrade pending official Astro toolchain support.
+- Updated `README.md` to advertise Astro v7.4 demo compatibility, and the package description to reference the Astro v7 theme.
+
+## v0.18.0 - October 28, 2026
 
 October dependency maintenance release synced with the Space Ahead theme.
 
